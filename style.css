@@ -132,3 +132,55 @@ nav{
     background-color: white;
     color: black;
 }
+
+
+.sliderItem:nth-child(1) .sliderbg{
+    background-color: gray;
+    
+}
+
+.sliderItem:nth-child(2) .sliderbg{
+    background-color: black;
+    
+}
+
+.sliderItem:nth-child(3) .sliderbg{
+    background-color: lightgreen;
+    
+}
+
+.sliderItem:nth-child(4) .sliderbg{
+    background-color: violet;
+    
+}
+
+.sliderItem:nth-child(5) .sliderbg{
+    background-color: red;
+    
+}
+
+
+.sliderItem:nth-child(1) .sliderprice{
+    background-color: gray;
+    
+}
+
+.sliderItem:nth-child(2) .sliderprice{
+    background-color: black;
+    
+}
+
+.sliderItem:nth-child(3) .sliderprice{
+    background-color: lightgreen;
+    
+}
+
+.sliderItem:nth-child(4) .sliderprice{
+    background-color: violet;
+    
+}
+
+.sliderItem:nth-child(5) .sliderprice{
+    background-color: red;
+    
+}
