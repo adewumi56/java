@@ -55,11 +55,87 @@ nav{
     font-weight: 49;
 }
 
-.slider{
-    background: url(https://www.istockphoto.com/signature/photo/binary-code-gm122204403-11474668?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ftext-background&utm_medium=affiliate&utm_source=unsplash&utm_term=text+background%3A%3A%3A);
-}
+
 
 .sliderwrapper{
     display: flex;
     width: 500vw;
+}
+
+.sliderItem{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slidertitle{
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    z-index: 1;
+}
+
+.sliderprice{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-weight: 300;
+    font-size: 60px;
+    text-align: center;
+    border: 1px solid gray;
+    z-index: 1;
+}
+
+.buyButton{
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    border: 1px solid gray;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.buyButton:hover{
+    color: black;
+    background-color: white;
+}
+
+.sliderBg{
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.sliderImg{
+    z-index: 1;
+}
+
+.slider{
+    background-color: white;
+}
+
+.sliderItem:nth-child(1){
+    background-color: yellow;
+}
+
+.sliderItem:nth-child(2){
+    background-color: violet;
+}
+
+.sliderItem:nth-child(3){
+    background-color: lightgreen;
+}
+
+.sliderItem:nth-child(4){
+    background-color: red;
 }
