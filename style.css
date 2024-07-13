@@ -116,26 +116,27 @@ nav{
     position: absolute;
 }
 
-.sliderImg{
-    z-index: 1;
-}
 
 .slider{
     background-color: white;
 }
 
-.sliderItem:nth-child(1){
+.sliderItem:nth-child(1) .sliderBg{
     background-color: yellow;
 }
 
-.sliderItem:nth-child(2){
+.sliderItem:nth-child(2) .sliderBg{
     background-color: violet;
 }
 
-.sliderItem:nth-child(3){
+.sliderItem:nth-child(3) .sliderBg{
     background-color: lightgreen;
 }
 
-.sliderItem:nth-child(4){
+.sliderItem:nth-child(4) .sliderBg{
     background-color: red;
+}
+
+.sliderImg{
+    z-index: 1;
 }
