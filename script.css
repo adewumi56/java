@@ -1,0 +1,85 @@
+.body{
+    font-family: 'lato', 'san-serif';
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    padding: 20px 50px;
+}
+
+.navtop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+}
+
+.search{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.searchinput{
+    border-color: transparent;
+    border: none;
+}
+
+.searchinput::placeholder{
+    padding: 0;
+    color: black;
+    font-size: medium;
+    font-style: italic;
+}
+
+.limitedoffer{
+    font-size: 20px;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+    color: gray;
+}
+
+.navbottom{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: orange;
+}
+
+.menuitem{
+    margin-right: 50px;
+    cursor: pointer;
+    font-weight: 49;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.slider{
+    background: url("https://plus.unsplash.com/premium_photo-1723867219819-c3c85d398efd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2slMjB3YWxsfGVufDB8fDB8fHww");
+
+}
+.sliderwrapper{
+    display:flex;
+    width: 200vw;
+}
+
+.slideritem{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.slidertitle{
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 900;
+    top: 10%;
+    right: 10%;
+    position: absolute;
+}
